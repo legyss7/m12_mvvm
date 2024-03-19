@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hw12</string>
+    <string name="search">search</string>
+    <string name="find">Find</string>
+    <string name="text_view">Здесь будет отображаться результат запроса</string>
+    <string name="search_results">Search results:</string>
+</resources>
