@@ -20,10 +20,8 @@ class MainViewModel(private val repository: MainRepository) : ViewModel() {
     fun updateSearchText(text: String) {
         viewModelScope.launch {
             if (text.length > 2) {
-                Log.d("myLog", "Search")
                 _state.value = State.Ready
             } else {
-                Log.d("myLog", "Waiting")
                 _state.value = State.Waiting
             }
 
